@@ -146,7 +146,7 @@ formatter.match({
   "location": "SmokeTest.i_have_a_valid_set_of_data_and_access_to_registration_page()"
 });
 formatter.result({
-  "duration": 5568179522,
+  "duration": 5568773441,
   "status": "passed"
 });
 formatter.scenario({
@@ -206,35 +206,35 @@ formatter.match({
   "location": "SmokeTest.I_enter_valid_username_and_valid_password(String,String)"
 });
 formatter.result({
-  "duration": 493620148,
+  "duration": 492860342,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_should_be_able_to_login_sucessfully()"
 });
 formatter.result({
-  "duration": 6067715992,
+  "duration": 6598347199,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_should_be_able_to_perform_search()"
 });
 formatter.result({
-  "duration": 3965931231,
+  "duration": 4024101851,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_should_be_able_to_select_profile()"
 });
 formatter.result({
-  "duration": 3562446155,
+  "duration": 3583149355,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_should_be_able_to_post_on_profile_wall()"
 });
 formatter.result({
-  "duration": 6089388577,
+  "duration": 6101440698,
   "status": "passed"
 });
 formatter.background({
@@ -253,7 +253,7 @@ formatter.match({
   "location": "SmokeTest.i_have_a_valid_set_of_data_and_access_to_registration_page()"
 });
 formatter.result({
-  "duration": 4698376143,
+  "duration": 4579937071,
   "status": "passed"
 });
 formatter.scenario({
@@ -313,36 +313,36 @@ formatter.match({
   "location": "SmokeTest.I_enter_valid_username_and_valid_password(String,String)"
 });
 formatter.result({
-  "duration": 517825765,
+  "duration": 482165020,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_should_be_able_to_login_sucessfully()"
 });
 formatter.result({
-  "duration": 5063042122,
+  "duration": 5149086661,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_should_be_able_to_perform_search()"
 });
 formatter.result({
-  "duration": 3933921040,
+  "duration": 3895653878,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_should_be_able_to_select_profile()"
 });
 formatter.result({
-  "duration": 3565307206,
+  "duration": 3569904277,
   "status": "passed"
 });
 formatter.match({
   "location": "SmokeTest.user_should_be_able_to_post_on_profile_wall()"
 });
 formatter.result({
-  "duration": 30037051677,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class,\u0027_1mf _1mj\u0027)]\"}\n  (Session info: chrome\u003d64.0.3282.186)\n  (Driver info: chromedriver\u003d2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T19:05:32.194Z\u0027\nSystem info: host: \u0027SALSERC35\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\\Users\\SOFIA~1.AVI\\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}\nSession ID: 6d99efc02088f7ba12a92e464215b838\n*** Element info: {Using\u003dxpath, value\u003d//div[contains(@class,\u0027_1mf _1mj\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat stepDefinition.SmokeTest.user_should_be_able_to_post_on_profile_wall(SmokeTest.java:137)\r\n\tat ✽.And User should be able to post on profile wall(Myapplication.feature:26)\r\n",
+  "duration": 23177100528,
+  "error_message": "java.lang.IllegalArgumentException: Must provide a location for a move action.\r\n\tat org.openqa.selenium.interactions.MoveMouseAction.\u003cinit\u003e(MoveMouseAction.java:38)\r\n\tat org.openqa.selenium.interactions.Actions.moveToElement(Actions.java:388)\r\n\tat stepDefinition.SmokeTest.user_should_be_able_to_post_on_profile_wall(SmokeTest.java:137)\r\n\tat ✽.And User should be able to post on profile wall(Myapplication.feature:26)\r\n",
   "status": "failed"
 });
 });
